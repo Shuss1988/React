@@ -1,0 +1,15 @@
+
+body{
+    font-size: 1.3rem;
+    background-color: rgba(232, 237, 243, 0.918);
+}
+
+.hero{
+ margin-bottom: 2rem;
+}
+.Btn{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+
+}

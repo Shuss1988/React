@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+header > nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: black;
+  font-size: 1.6rem;
+  gap: 5rem;
+  grid-column: 2;
+  
+}
+.active{
+  color: crimson;
+}
+a:link { text-decoration: none;
+
+}
+h1{
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+button {
+font-size: 1.3rem;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 2rem;
+grid-column: 1;
+
+}
+.divHeader{
+
+  grid-column: 1;
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.mapeo{
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 28rem );
+  grid-gap: 1rem;
+  grid-auto-rows: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+figure > img{
+  width: 26rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+text-align: center;
+
+}

@@ -1,0 +1,71 @@
+
+:root{
+    margin: 0;
+    padding: 0;
+background-color: black;
+color: aliceblue;
+
+
+  
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+input{
+    width: 15rem;
+    height: 2rem;
+    border: 3px solid black;
+    font-size: 1.3rem;
+ 
+}
+img{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.window{
+    font-size: 1.3rem;
+    width: 80%;
+}
+.window-pane{
+ margin-top: 0.8rem;
+}
+
+figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 10rem;
+    display: flex;
+  
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: stretch ;
+    text-transform: uppercase;
+    width: 100%;
+}

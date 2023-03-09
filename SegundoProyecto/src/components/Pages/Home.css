@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.home{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+   
+}
+h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+p{
+    font-family: 'Indie Flower', 'Times New Roman', Times, serif;
+    padding: 1rem 10rem;
+    font-size: 2rem;
+    background-color: transparent;
+}
+.Video{
+    width: 100%;
+    border-radius: 8px;
+    margin: 1rem 5rem;
+    margin: auto;
+    display: block;
+  }
+  @media (max-width: 650px){
+p{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+}
+header > img{
+    width: 5rem;
+}
+.Video{
+ 
+    margin: 0 1rem;
+}
+  }
+  

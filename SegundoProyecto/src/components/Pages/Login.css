@@ -1,0 +1,95 @@
+
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://res.cloudinary.com/dsvvktihq/image/upload/v1677007635/im%C3%A1genes%20de%20los%20Thundercats/mzd2AqNTgZ8EA9XyyTbh2cB16ib_bwckka.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain;
+
+
+}
+.card {
+  width: 340px;
+  height: 354px;
+  padding: 0 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  background: #ffffff62;
+  border-radius: 20px;
+}
+
+.card > * {
+  margin: 0;
+  color: black;
+}
+
+.card__title {
+  font-size: 23px;
+  font-weight: 900;
+  color: black;
+  background-color: transparent;
+}
+
+.card__content {
+  font-size: 28px;
+  line-height: 18px;
+  background-color: transparent;
+  color: black;
+
+  padding: 2rem;
+  margin: 0.5rem;
+
+}
+
+.card__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.card__form input {
+  margin-top: 10px;
+  outline: 0;
+  background: rgba(255, 255, 255, 0.377);
+  box-shadow: transparent 0px 0px 0px 1px inset;
+  padding: 0.6em;
+  border-radius: 14px;
+  border: 1px solid #333;
+  color: black;
+  width: 15rem;
+}
+
+.card__form button {
+  border: 0;
+
+  color: #fff;
+  padding: 0.68em;
+  border-radius: 14px;
+  font-weight: bold;
+}
+
+ 
+.sign-up{
+    background-color: transparent;
+    color: black;
+}
+.Logueate{
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+    background-color: transparent;
+
+}
+

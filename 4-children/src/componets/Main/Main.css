@@ -1,0 +1,22 @@
+main{
+    margin: 0  7rem;
+}
+
+main > Img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+h2{
+    margin-left: 9rem;
+}
+p{
+margin: 1rem 2rem;
+}
+footer > h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

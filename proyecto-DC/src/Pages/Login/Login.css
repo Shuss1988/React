@@ -1,0 +1,107 @@
+
+@media (max-width: 650px){
+  .Login{
+    width: 12rem;
+    height: auto;
+  }
+    .MainPrincipal{
+      display: block;
+      margin: auto;
+      background-position: center;
+      margin-bottom: 10rem;
+    }
+}
+
+.MainPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      background-image: url("https://res.cloudinary.com/dsvvktihq/image/upload/v1676763319/Mundo%20DC/20544106_ypz5zs.jpg");
+      background-repeat: no-repeat;
+      background-position:top;
+      background-color: #000000e7;
+      text-transform:capitalize;
+      background-size: contain;
+    
+ 
+}
+.Login{
+    width: 10rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(250, 250, 252, 0.144);
+    padding: 2.5em;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.315) 1px 2px 2px;
+    margin-top: 20rem;
+  }
+  
+  .Login:hover {
+    transform: translateX(-0.5em) translateY(-0.5em);
+    border: 1px solid #171717;
+    box-shadow: 10px 10px 0px rgba(117, 106, 2, 0.719);
+  }
+  
+  h3 {
+    color: rgb(243, 241, 241);
+  
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  .input {
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    outline: none;
+    padding: 0.7em;
+    transition: .4s ease-in-out;
+    font-size: 1.2rem;
+    color: black;
+    width: 8rem;
+    height: auto;
+    
+  }
+  
+  .input:hover {
+    box-shadow: 6px 6px 0px rgba(78, 71, 3, 0.829),
+               -3px -3px 10px rgba(233, 211, 12, 0.973);
+  }
+
+  .input:focus {
+    background: #e7d2145e;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  }
+  
+  .Login button {
+    display: flex;
+    margin-top: 1rem;
+    font-size: 1rem;
+    align-self: center;
+    justify-content: center;
+    padding: 0.3rem;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(100, 90, 2, 0.26) 1px 1px 1px;
+    width: 4rem;
+    height: 1.7rem;
+
+  }
+  
+  .Login button:hover {
+    box-shadow: 6px 6px 0px rgba(95, 86, 2, 0.432),
+               -3px -3px 10px rgba(233, 211, 12, 0.637);
+    transform: translateX(-0.5em) translateY(-0.5em);
+  }
+  
+  .Login button:active {
+    transition: .2s;
+    transform: translateX(0em) translateY(0em);
+    box-shadow: none;
+  }

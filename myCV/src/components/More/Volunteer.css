@@ -1,0 +1,17 @@
+.volunteer{
+    width: 45rem;
+    height: 40rem;
+   
+}
+
+.VoltunterMas{
+
+    text-align: center;
+   
+    background-color: rgba(162, 199, 229, 0.241);
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    margin: 0 3rem;
+    margin-bottom: 2rem;
+  
+}

@@ -1,0 +1,15 @@
+.Experience{
+    
+    text-align: center;
+    width: 42rem;
+    height: 48rem;
+    background-color: rgba(162, 199, 229, 0.241);
+    border-radius: 12px;
+   
+ 
+}
+.ExperienceLaboral{
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25spx;
+}

@@ -1,0 +1,9 @@
+.App{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+div{
+    gap:3rem;
+}
